@@ -87,7 +87,7 @@ describe('boot/challenge', () => {
       expect(firstCompletedChallenge.completedDate).toEqual(originalCompletion);
     });
 
-    // eslint-disable-next-line max-len
+    // disable-next-line max-len
     it('does not attempt to update progressTimestamps for a previously completed challenge', () => {
       const completedChallengeId = 'aaa48de84e1ecc7c742e1124';
       const completedChallenge = {
